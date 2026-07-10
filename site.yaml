@@ -1,7 +1,7 @@
 title: "Bruno Croci's Art"
 description: "photography, digital art, music and drawings"
 author: "Bruno Croci"
-url: "https://bruno.croci.art/"
+url: "http://maelle.sweepick.games:8089"
 
 images_max_height: 1024
 images_quality: 65
@@ -19,10 +19,11 @@ sections:
   - title: "About"
     pages:
       - "index.md"
-  - title: "Art Projects"
+  - title: "Music"
     pages:
-      - "xavega/index.md"
+      - "stuffy-knows/index.md"
   - title: "Gallery"
     pages:
+      - "xavega/index.md"
       - "photography/index.md"
 
