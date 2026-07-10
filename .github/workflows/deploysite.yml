@@ -38,7 +38,7 @@ jobs:
       - name: Build Site
         working-directory: flingern
         run: |
-          nix-shell --run "uv run main.py build website/"
+          nix develop --command bash -c "uv run main.py build website/"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
